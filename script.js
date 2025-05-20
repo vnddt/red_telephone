@@ -27,12 +27,12 @@ var typed = new Typed(".multiple-text", {strings: ["Nice to meet u....."], typeS
 
         if (inputBox.value.trim() !== "") {
             // Hiển thị thông báo
-            showToast("Got your message – DDT here!");
+            showToast("Got your message!");
 
             // Xóa nội dung ô input
             inputBox.value = "";
         } else {
-            showToast("Oops, write something!!!");
+            showToast("Oops, write something!");
         }
     });
 
